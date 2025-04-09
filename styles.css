@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #toolbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #f4f4f4;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #toolbar label, #toolbar input, #toolbar button {
+    margin-right: 10px;
+  }
+  
+  canvas {
+    border: 1px solid #ddd;
+    cursor: crosshair;
+    margin-top: 20px;
+  }
